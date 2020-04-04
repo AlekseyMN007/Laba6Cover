@@ -14,6 +14,7 @@ namespace Laba_4.coveralls.Test
             var value = Program.Analize(expectedValue);
 
             var results = new CoverallsRunResults() { StandardOutput=value.GetType().ToString(),ExitCode=0, StandardError="Error" };
+
             CoverallsAssert.RanSuccessfully(results);
         }
     }
