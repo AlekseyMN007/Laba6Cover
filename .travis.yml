@@ -5,5 +5,5 @@ dist: trusty
 sudo: false
 script:
   - dotnet build -c Release
-  - dotnet test ./src/GameOfLife.xUnit.Tests/GameOfLife.xUnit.Tests.csproj -c Release
-  - dotnet test ./src/GameOfLife.mstest.Tests/GameOfLife.mstest.Tests.csproj -c Release
+  - dotnet test ./Laba_4.xUnit.Test/Laba_4.xUnit.Test.csproj -c Release
+  - dotnet test ./Laba_4.mstest.Test/Laba_4.mstest.Test.csproj -c Release
