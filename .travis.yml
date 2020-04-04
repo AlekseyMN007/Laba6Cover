@@ -8,5 +8,4 @@ sudo: false
 #  - dotnet test ./Laba_4.xUnit.Test/Laba_4.xUnit.Test.csproj -c Release
 # - dotnet test ./Laba_4.mstest.Test/Laba_4.mstest.Test.csproj -c Release
 #  - dotnet test ./Laba_4.coveralls.Test/Laba_4.coveralls.Test.csproj -c Release
-script: "sbt clean coverage test"
-after_success: "sbt coverageReport coveralls"
+
