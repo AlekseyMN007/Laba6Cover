@@ -47,6 +47,7 @@ namespace Laba_4
             string regexNumberType1 = @"(\+\d{11})|(\d{11})";
             string regexStringType2 = @"\b\s\b[А-Я]\w*\b";
 
+        
             text = Regex.Replace(text, regexNumberType1, "[censored]");
             text = Regex.Replace(text, regexStringType2, " [censored]");
 
